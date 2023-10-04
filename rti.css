@@ -1,0 +1,67 @@
+nav {
+    height: 135px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .one {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    background-image: url("images/juet_logo1.jpg");
+    height: 135px;
+    width: 120px;
+    position: absolute;
+    object-fit: contain;
+    margin-right: 1200px;
+    margin-left: 180px;
+  }
+  .text {
+    height: 135px;
+    width: 70%;
+    font-size: 28px;
+    margin-left: 480px;
+  }
+  .main-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #065891;
+  }
+  .sub-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #065891;
+    padding-left: 250px;
+  }
+  .nav-content {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #065891;
+  }
+  .nav-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+  }
+  .kk{
+    text-align: center;
+    color: #065891;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  h3{
+    color: #065891;
+  }

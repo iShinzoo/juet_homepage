@@ -1,0 +1,118 @@
+nav {
+  height: 135px;
+  width: 100%;
+  background-color: #fff;
+}
+.one {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("images/juet_logo1.jpg");
+  height: 135px;
+  width: 120px;
+  position: absolute;
+  object-fit: contain;
+  margin-right: 1200px;
+  margin-left: 180px;
+}
+.text {
+  height: 135px;
+  width: 70%;
+  font-size: 28px;
+  margin-left: 480px;
+}
+.main-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: #065891;
+}
+.sub-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #065891;
+  padding-left: 250px;
+}
+.nav-content {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #065891;
+}
+.nav-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.kk {
+  text-align: center;
+  color: #065891;
+  margin-top: 100px;
+}
+p {
+  color: #065891;
+}
+.hero2 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+}
+.hero2-text {
+  text-align: center;
+  font-size: 28px;
+  padding-left: 580px;
+  font-weight: 700;
+  color: #065891;
+}
+.hero2-sub {
+  padding-top: 30px;
+}
+.gg {
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(30deg, #065891, #4ce3f7);
+  border-radius: 20px;
+  background-size: 100% auto;
+  font-family: inherit;
+  font-size: 17px;
+  padding: 0.6em 1.5em;
+  margin-left: 190px;
+}
+
+.gg:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+.gg-text {
+  text-decoration: none;
+  color: #fff;
+}

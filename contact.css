@@ -1,0 +1,125 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 80px;
+  width: 550px;
+  height: 115px;
+  padding: 0.5rem;
+  background: linear-gradient(30deg, #065891, #4ce3f7);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  transform: skewX(10deg);
+  transition: 0.4s;
+  overflow: hidden;
+  color: #fff;
+}
+
+.card:hover {
+  height: 300px;
+  transform: skew(0deg);
+}
+
+.align {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffbd44;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ca4e;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+
+.card h1 {
+  text-align: center;
+  margin: 1.3rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+
+nav {
+  height: 135px;
+  width: 100%;
+  background-color: #fff;
+}
+.one {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("images/juet_logo1.jpg");
+  height: 135px;
+  width: 120px;
+  position: absolute;
+  object-fit: contain;
+  margin-right: 1200px;
+  margin-left: 180px;
+}
+.text {
+  height: 135px;
+  width: 70%;
+  font-size: 28px;
+  margin-left: 480px;
+}
+.main-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: #065891;
+}
+.sub-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #065891;
+  padding-left: 250px;
+}
+.nav-content {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #065891;
+}
+.nav-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}

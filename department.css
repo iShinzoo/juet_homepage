@@ -1,0 +1,128 @@
+nav {
+  height: 135px;
+  width: 100%;
+  background-color: #fff;
+}
+.one {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("images/juet_logo1.jpg");
+  height: 135px;
+  width: 120px;
+  position: absolute;
+  object-fit: contain;
+  margin-right: 1200px;
+  margin-left: 180px;
+}
+.text {
+  height: 135px;
+  width: 70%;
+  font-size: 28px;
+  margin-left: 480px;
+}
+.main-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: #065891;
+}
+.sub-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #065891;
+  padding-left: 250px;
+}
+.nav-content {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #065891;
+}
+.nav-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.kk {
+  text-align: center;
+  margin-top: 100px;
+  color: #065891;
+}
+.main {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 190px;
+  height: 254px;
+  background: #065891;
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+}
+
+.card .card-border-top {
+  width: 60%;
+  height: 3%;
+  background: #fff;
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.card span {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.card .job {
+  font-weight: 400;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+.card .img {
+  width: 70px;
+  height: 80px;
+  background: #fff;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #065891;
+  color: white;
+  font-weight: 600;
+}
+
+.card button:hover {
+  background: #fff;
+  color: #065891;
+}
